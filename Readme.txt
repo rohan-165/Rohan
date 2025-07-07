@@ -1,33 +1,33 @@
-=========================================================
-Rohan's Portfolio Website
-=========================================================
+# Rohan's Portfolio Website
 
-Template Name: MyResume (Customized)  
-Original Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/  
-Author: Rohan  
-Base Template Author: BootstrapMade.com  
-License: https://bootstrapmade.com/license/
+**Template Name**: MyResume (Customized)  
+**Original Template URL**: [https://bootstrapmade.com/free-html-bootstrap-template-my-resume/](https://bootstrapmade.com/free-html-bootstrap-template-my-resume/)  
+**Author**: Rohan  
+**Base Template Author**: BootstrapMade.com  
+**License**: [https://bootstrapmade.com/license/](https://bootstrapmade.com/license/)
 
----------------------------------------------------------
-ABOUT THIS PROJECT
----------------------------------------------------------
+---
 
-This is my personal developer portfolio built using the MyResume Bootstrap template. It highlights my technical skills, projects, work experience, education, and contact details. It’s designed to be responsive, professional, and easy to navigate—offering potential employers or clients a clear view of what I can do.
+## 📌 About This Project
 
----------------------------------------------------------
-FEATURES
----------------------------------------------------------
+This is my personal developer portfolio built using the **MyResume Bootstrap** template. It showcases my technical skills, projects, work experience, education, and contact details. The design is responsive, professional, and easy to navigate—providing a clean overview of my work and capabilities.
 
-✔ Clean and responsive design  
-✔ Mobile-friendly layout  
-✔ Sections for About, Skills, Resume, Projects, and Contact  
-✔ Animated skill progress and scroll effects  
-✔ Integrated contact form  
-✔ Easily customizable and developer-friendly  
+---
 
----------------------------------------------------------
-FOLDER STRUCTURE
----------------------------------------------------------
+## ✨ Features
+
+- ✅ Clean and responsive design  
+- ✅ Mobile-friendly layout  
+- ✅ Sections for About, Skills, Resume, Projects, and Contact  
+- ✅ Animated skill progress and scroll effects  
+- ✅ Integrated contact form  
+- ✅ Easily customizable and developer-friendly  
+
+---
+
+## 📁 Folder Structure
+
+
 
 /assets
   ├── /css           → Custom and template stylesheets  
@@ -38,44 +38,42 @@ FOLDER STRUCTURE
 index.html           → Main HTML file  
 README.txt           → This file  
 
----------------------------------------------------------
-CUSTOMIZATION
----------------------------------------------------------
+
+---
+
+## 🛠️ Customization
 
 To personalize this portfolio:
 - Edit `index.html` to update your content
 - Replace default images in `/assets/img/` with your own
-- Update styles in `/assets/css/style.css`
-- Modify social links and contact info in the footer and contact section
+- Modify styles in `/assets/css/style.css`
+- Update social links and contact info in the footer and contact section
 
----------------------------------------------------------
-CREDITS
----------------------------------------------------------
+---
 
-Built with:
-- Bootstrap (https://getbootstrap.com)
-- AOS (Animate On Scroll)
-- Glightbox
-- Isotope Layout
-- Bootstrap Icons
-- Font Awesome (optional)
+## 🧰 Built With
 
-Base template by: https://bootstrapmade.com
+- [Bootstrap](https://getbootstrap.com/)
+- [AOS (Animate On Scroll)](https://michalsnik.github.io/aos/)
+- [Glightbox](https://biati-digital.github.io/glightbox/)
+- [Isotope Layout](https://isotope.metafizzy.co/)
+- [Bootstrap Icons](https://icons.getbootstrap.com/)
+- [Font Awesome](https://fontawesome.com/) *(optional)*
 
----------------------------------------------------------
-LICENSE
----------------------------------------------------------
+---
 
-This project uses the free version of the MyResume template and follows the BootstrapMade license:
-https://bootstrapmade.com/license/
+## 📜 License
 
-You may use, modify, and share this personal portfolio for personal use or job application purposes.
+This project uses the **free version** of the MyResume template and follows the [BootstrapMade license](https://bootstrapmade.com/license/).
 
----------------------------------------------------------
-CONTACT
----------------------------------------------------------
+You may use, modify, and share this personal portfolio for **personal use or job application purposes**.
 
-Created by: Rohan  
-LinkedIn: [https://www.linkedin.com/in/rohan-chy]  
-GitHub: [https://github.com/rohan-165]  
-Email: [rohanchy165@gmail.com]
+---
+
+## 📬 Contact
+
+**Created by**: Rohan  
+- 🔗 [LinkedIn](https://www.linkedin.com/in/rohan-chy)  
+- 💻 [GitHub](https://github.com/rohan-165)  
+- 📧 rohanchy165@gmail.com
+
