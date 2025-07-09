@@ -29,12 +29,12 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- Firebase SDK -->
+  <!-- Firebase SDK (v9 compat) -->
   <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
-  <script>
 
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  <script>
+    // Your Firebase config
     const firebaseConfig = {
       apiKey: "AIzaSyDLfHie5mtCISmG_Jv_FE0XZxCKgNdMgAE",
       authDomain: "rohan-portfolio-143bf.firebaseapp.com",
@@ -45,9 +45,42 @@
       measurementId: "G-CV63S22T1Q"
     };
 
+    // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
     const db = firebase.firestore();
+
+    // Reference to the "visits/counter" document
+    const counterRef = db.collection("visits").doc("counter");
+
+    // Function to update and display visit count
+    async function updateVisitCount() {
+      try {
+        // Increment count by 1
+        await counterRef.update({
+          count: firebase.firestore.FieldValue.increment(1)
+        });
+
+        // Get the updated count
+        const doc = await counterRef.get();
+        if (doc.exists) {
+          document.getElementById("visits").innerText = `Visits: ${doc.data().count}`;
+        } else {
+          document.getElementById("visits").innerText = "No counter found.";
+        }
+      } catch (error) {
+        console.error("Error updating visit count:", error);
+        document.getElementById("visits").innerText = "Error loading visits.";
+      }
+    }
+
+    // Call the function
+    document.addEventListener("DOMContentLoaded", function () {
+      updateVisitCount();
+    });
+
+
   </script>
+
 
 </head>
 
@@ -145,6 +178,8 @@
               </div>
 
             </div>
+            <!-- <p id="visits">Visits: Loading...</p> -->
+
 
           </div>
         </div>
